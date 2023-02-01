@@ -11,9 +11,10 @@ while True:
           num = num / 2
           print(int(num))
         else:
-          num += 1
+          num = num * 3 + 1
           print(int(num))
       else:
         print(int(num))
       num = num
   break
+  
